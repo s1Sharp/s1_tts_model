@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "s1_tts_model/", "tests/"
+]
+extra-index-urls = [
+  "https://download.pytorch.org/whl/cpu",
+]
